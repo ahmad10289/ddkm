@@ -1,0 +1,79 @@
+body {
+	background-color: #DCEBFB;
+}
+
+table, th, td {
+	border: 2px solid #2FA8E4;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+table tr:nth-child(odd) {
+	background-color: #D9E5F7;
+	color: #0680BD ;
+}
+
+table tr:nth-child(even) {
+	background-color: #C9DCF9;
+	color: #0680BD ;
+}
+.title {
+	text-align: center;
+	color: #2FA8E4;
+	text-decoration: underline;
+}
+
+.tableHead td {
+	font-weight: bold;
+}
+
+.navbar-default {
+	background-color: #AFD6F3 !important;
+	border-color: #4ABBF1 !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,
+	.navbar-default .navbar-nav>.active>a:hover {
+	color: #D9EDF7 !important;
+	background-color: #5CBAE6 !important;
+}
+
+a.navbar-brand {
+	color: #0680BD !important;
+}
+
+li a {
+	color: #0680BD !important;
+}
+
+label {
+	width: 175px;
+	display: inline-block;
+	vertical-align: middle;
+	color:#0680BD !important; 
+}
+
+input[type="text"] {
+	width: 300px !important; 
+	vertical-align: middle;
+}
+.editButton{
+	background-color: #0680BD;	
+    border: 1px solid #d9edf7;
+    color: #d9edf7;
+}
+.editButton:hover{
+	background-color: #8686F1;
+	border:1px solid white;
+	color:white;
+}
+
+.editForm {  
+	position: absolute;
+    left: 350px;
+}
+
+.buttonGroup{
+    position: absolute;
+    left: 101px;
+}
